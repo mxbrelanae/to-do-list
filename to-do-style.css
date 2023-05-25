@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    color: red;
+    font-weight: bold;
+}
+
+form{
+    font-size: 48px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+#add{
+    height: 30px;
+    width: 300px;
+}
+
+#add:hover{
+    background-color: rgb(238, 236, 236);
+}
+
+#todoList{
+    font-size: 32px;
+}
+    
+/*#cx{
+    height: 20px;
+    width: 20px;
+    }
+#cx:checked~span{ /*crosses out text, when box is checked.
+    text-decoration: line-through;
+    align-content: center;
+    text-decoration-color: red;
+    margin-left: 25px;
+    margin-right: 25px;
+*/
+#addBtn{
+    height: 30px;
+    width: 50px;
+    background-color: red;
+    border-color: darkred;
+    color:white;
+    border-radius: 5px;
+  }
+ 
+  #addBtn:hover, #deleteAll:hover{
+    background-color: darkred;
+    color: lightgrey;
+  }
+
+  #deleteAll{
+    background-color: red;
+    border-color: darkred;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    scroll-margin-bottom: 50%;
+   }
